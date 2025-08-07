@@ -1,0 +1,37 @@
+<Project>
+  <PropertyGroup>
+    <UnoVersion>5.4.10</UnoVersion>
+    <UnoExtensionsVersion>5.0.24</UnoExtensionsVersion>
+    <UnoToolkitVersion>6.3.10</UnoToolkitVersion>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <!-- Uno Platform -->
+    <PackageVersion Include="Uno.Sdk" Version="$(UnoVersion)" />
+    <PackageVersion Include="Uno.Core.Extensions.Logging.Singleton" Version="4.2.6" />
+    <PackageVersion Include="Uno.Resizetizer" Version="1.8.0" />
+    
+    <!-- Uno Extensions -->
+    <PackageVersion Include="Uno.Extensions.Configuration" Version="$(UnoExtensionsVersion)" />
+    <PackageVersion Include="Uno.Extensions.Core" Version="$(UnoExtensionsVersion)" />
+    <PackageVersion Include="Uno.Extensions.Hosting" Version="$(UnoExtensionsVersion)" />
+    <PackageVersion Include="Uno.Extensions.Http" Version="$(UnoExtensionsVersion)" />
+    <PackageVersion Include="Uno.Extensions.Localization" Version="$(UnoExtensionsVersion)" />
+    <PackageVersion Include="Uno.Extensions.Logging" Version="$(UnoExtensionsVersion)" />
+    <PackageVersion Include="Uno.Extensions.Navigation" Version="$(UnoExtensionsVersion)" />
+    <PackageVersion Include="Uno.Extensions.Reactive" Version="$(UnoExtensionsVersion)" />
+    <PackageVersion Include="Uno.Extensions.Serialization" Version="$(UnoExtensionsVersion)" />
+    
+    <!-- Uno Toolkit -->
+    <PackageVersion Include="Uno.Toolkit.Skia.WinUI" Version="$(UnoToolkitVersion)" />
+    <PackageVersion Include="Uno.Toolkit.WinUI" Version="$(UnoToolkitVersion)" />
+    
+    <!-- Microsoft Extensions -->
+    <PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
+    
+    <!-- Other -->
+    <PackageVersion Include="SkiaSharp.Skottie" Version="3.0.0" />
+    <PackageVersion Include="SkiaSharp.Views.Uno.WinUI" Version="3.0.0" />
+    <PackageVersion Include="CommunityToolkit.Mvvm" Version="8.3.2" />
+  </ItemGroup>
+</Project>

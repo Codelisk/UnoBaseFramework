@@ -1,0 +1,3 @@
+[submodule "UnoClaude"]
+	path = UnoClaude
+	url = https://github.com/Codelisk/UnoClaude.git

@@ -1,0 +1,12 @@
+<ResourceDictionary
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="ms-appx:///UnoBaseFramework/Styles/Colors.xaml"/>
+        <ResourceDictionary Source="ms-appx:///UnoBaseFramework/Styles/TextStyles.xaml"/>
+        <ResourceDictionary Source="ms-appx:///UnoBaseFramework/Styles/ButtonStyles.xaml"/>
+        <ResourceDictionary Source="ms-appx:///UnoBaseFramework/Styles/ControlStyles.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+</ResourceDictionary>
