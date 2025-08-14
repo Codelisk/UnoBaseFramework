@@ -19,23 +19,24 @@
     <!-- Project Configuration -->
     <RootNamespace>UnoBaseFramework</RootNamespace>
     <IsPackable>true</IsPackable>
+    
+    <!-- Uno Features -->
+    <UnoFeatures>
+      Configuration;
+      Hosting;
+      Http;
+      Localization;
+      Logging;
+      Navigation;
+      Mvvm;
+      Serialization;
+      Toolkit;
+    </UnoFeatures>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Uno.Core.Extensions.Logging.Singleton" />
-    <PackageReference Include="Uno.Extensions.Configuration" />
-    <PackageReference Include="Uno.Extensions.Core" />
-    <PackageReference Include="Uno.Extensions.Hosting" />
-    <PackageReference Include="Uno.Extensions.Http" />
-    <PackageReference Include="Uno.Extensions.Localization" />
-    <PackageReference Include="Uno.Extensions.Logging" />
-    <PackageReference Include="Uno.Extensions.Navigation" />
-    <PackageReference Include="Uno.Extensions.Reactive" />
-    <PackageReference Include="Uno.Extensions.Serialization" />
-    <PackageReference Include="Uno.Toolkit.WinUI" />
-    <PackageReference Include="Uno.Toolkit.Skia.WinUI" Condition="$([MSBuild]::GetTargetPlatformIdentifier('$(TargetFramework)')) == 'desktop'" />
     <PackageReference Include="Microsoft.Extensions.Logging.Console" />
-    <PackageReference Include="CommunityToolkit.Mvvm" />
+    <PackageReference Include="Uno.Extensions.Reactive" />
   </ItemGroup>
 
 </Project>

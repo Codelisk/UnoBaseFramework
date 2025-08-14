@@ -1,14 +1,14 @@
 <Project>
   <PropertyGroup>
-    <UnoVersion>5.4.10</UnoVersion>
-    <UnoExtensionsVersion>5.0.24</UnoExtensionsVersion>
-    <UnoToolkitVersion>6.3.10</UnoToolkitVersion>
+    <UnoVersion>6.3.0-dev.55</UnoVersion>
+    <UnoExtensionsVersion>6.3.0-dev.3</UnoExtensionsVersion>
+    <UnoToolkitVersion>8.2.0-dev.4</UnoToolkitVersion>
   </PropertyGroup>
   
   <ItemGroup>
     <!-- Uno Platform -->
     <PackageVersion Include="Uno.Sdk" Version="$(UnoVersion)" />
-    <PackageVersion Include="Uno.Core.Extensions.Logging.Singleton" Version="4.2.6" />
+    <PackageVersion Include="Uno.Core.Extensions.Logging.Singleton" Version="4.1.1" />
     <PackageVersion Include="Uno.Resizetizer" Version="1.8.0" />
     
     <!-- Uno Extensions -->
@@ -17,7 +17,7 @@
     <PackageVersion Include="Uno.Extensions.Hosting" Version="$(UnoExtensionsVersion)" />
     <PackageVersion Include="Uno.Extensions.Http" Version="$(UnoExtensionsVersion)" />
     <PackageVersion Include="Uno.Extensions.Localization" Version="$(UnoExtensionsVersion)" />
-    <PackageVersion Include="Uno.Extensions.Logging" Version="$(UnoExtensionsVersion)" />
+    <PackageVersion Include="Uno.Extensions.Logging.WinUI" Version="$(UnoExtensionsVersion)" />
     <PackageVersion Include="Uno.Extensions.Navigation" Version="$(UnoExtensionsVersion)" />
     <PackageVersion Include="Uno.Extensions.Reactive" Version="$(UnoExtensionsVersion)" />
     <PackageVersion Include="Uno.Extensions.Serialization" Version="$(UnoExtensionsVersion)" />
@@ -27,7 +27,7 @@
     <PackageVersion Include="Uno.Toolkit.WinUI" Version="$(UnoToolkitVersion)" />
     
     <!-- Microsoft Extensions -->
-    <PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="8.0.0" />
+    <PackageVersion Include="Microsoft.Extensions.Logging.Console" Version="9.0.0" />
     
     <!-- Other -->
     <PackageVersion Include="SkiaSharp.Skottie" Version="3.0.0" />
